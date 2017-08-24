@@ -21,17 +21,7 @@ public class MainActivity extends AppCompatActivity
 
     private ImageView btnSearch,btnNavDrawer;
     DrawerLayout drawer;
-    private MainActivity inst;
 
-
-    public MainActivity instance() {
-        return inst;
-    }
-    @Override
-    public void onStart() {
-        super.onStart();
-        inst =  this;
-    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
